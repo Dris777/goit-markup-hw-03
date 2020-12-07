@@ -220,6 +220,28 @@ header {
   margin-bottom: 50px;
 }
 /* Наша команда */
+.team {
+  padding-top: 94px;
+  background-color: #f5f4fa;
+}
+.team-list {
+  display: flex;
+}
+.team-list-item {
+  width: 270px;
+  height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--heroandadress-text-color);
+  text-align: center;
+}
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.team-img {
+  margin-bottom: 30px;
+}
 .team-title {
   font-weight: bold;
   font-size: 36px;
@@ -227,12 +249,14 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
 .team-list-title {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
+  margin-bottom: 10px;
 }
 .team-list-text {
   font-style: normal;
@@ -242,6 +266,9 @@ header {
   color: var(--primary-text-color);
 }
 /* Подвал */
+.footer {
+  background-color: #2f303a;
+}
 .footer-list-text {
   /* color: var(--heroandadress-text-color); */
 }
