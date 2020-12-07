@@ -34,19 +34,23 @@ a {
   text-decoration: none;
   color: var(--title-text-color);
 }
-container {
-  width: 1200px;
+.container {
+  min-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
   align-items: center;
   display: block;
-  }
 }
+
 /* Стили для СТУДИЯ */
 
 /* Стили для логотипа */
 .site-nav :hover {
   color: #2196f3;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
 }
 .logo {
   color: var(--dedicated-text-color);
@@ -59,8 +63,7 @@ container {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  margin-top: 24px;
-  margin-bottom: 25px;
+  margin-right: 93px;
 }
 
 .logo-a-list {
@@ -70,39 +73,33 @@ container {
   line-height: 1.14;
   letter-spacing: 0.02em;
   display: flex;
-  margin-left: 93px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-right: 331px;
+}
+.logo-a-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.container-header {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+}
+.header-contact {
+  margin-left: auto;
+}
+.adress-mail {
+  margin-right: 50px;
 }
 /* Стили для верхней линии header */
-.header-contact {
-  display: flex;
-  margin-bottom: 32px;
-  margin-top: 32px;
-  height: 16px;
-}
 
 header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-left: 215px;
-  padding-right: 215px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   border-bottom: 1px solid var(--primary-text-color);
-  height: 80px;
 
   background-color: var(--heroandadress-text-color);
 }
-.site-nav {
-  display: flex;
-}
-.header-contact-tel {
-  margin-left: 50px;
-}
-.text-portfolio {
-  margin-right: 50px;
-}
+
 /* Секция Герой */
 /* Скрытый заголовок */
 .visually-hidden {
@@ -124,7 +121,7 @@ header {
 .hero {
   display: flex;
   flex-direction: column;
- text-align: center;
+  text-align: center;
 
   outline: solid tomato;
 }
@@ -160,7 +157,6 @@ header {
 }
 .studio {
   color: var(--dedicated-text-color);
-  margin-right: 50px;
 }
 .button:hover {
   background: #2196f3;
