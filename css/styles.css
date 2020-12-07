@@ -14,10 +14,13 @@ address {
 }
 ul {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
   font-family: var(--main-font);
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -38,6 +41,8 @@ container {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .logo-a-list {
@@ -46,18 +51,38 @@ container {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
+  margin-left: 93px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-right: 331px;
 }
+.header-contact {
+  display: flex;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  height: 16px;
+}
+
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding-left: 215px;
   padding-right: 215px;
+  border-bottom: 1px solid var(--primary-text-color);
+  height: 80px;
+  background-color: var(--heroandadress-text-color);
 }
 .site-nav {
   display: flex;
 }
-
+.header-contact-tel {
+  margin-left: 50px;
+}
+.text-portfolio {
+  margin-right: 50px;
+}
 /* Скрытый заголовок */
 .visually-hidden {
   position: absolute;
@@ -108,6 +133,7 @@ header {
 }
 .studio {
   color: var(--dedicated-text-color);
+  margin-right: 50px;
 }
 .button:hover {
   background: #2196f3;
