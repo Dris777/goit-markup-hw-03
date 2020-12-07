@@ -1,3 +1,4 @@
+/* Общие значения для цвета и шрифта */
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -7,6 +8,7 @@
   --second-font: 'Raleway', sans-serif;
 }
 
+/* Общие правила для всех тегов */
 address {
   font-style: normal;
 }
@@ -20,6 +22,9 @@ body {
 a {
   text-decoration: none;
   color: var(--title-text-color);
+}
+container {
+  min-width: 1600;
 }
 /* Стили для логотипа */
 .logo {
@@ -41,6 +46,16 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+.site-nav {
+  display: flex;
 }
 
 /* Скрытый заголовок */
