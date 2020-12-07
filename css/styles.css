@@ -36,7 +36,7 @@ a {
 }
 /* Общие правила для контейнера Дива */
 .container {
-  min-width: 1200px;
+  width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
   align-items: center;
@@ -133,8 +133,7 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
-
-  outline: solid tomato;
+  margin-bottom: 94px;
 }
 .slogan {
   font-style: normal;
@@ -143,7 +142,8 @@ header {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
+  margin-top: 200px;
+  margin-bottom: 30px;
   /* color: #ffffff; */
 }
 
@@ -153,6 +153,7 @@ header {
   border-radius: 4px;
   width: 200px;
   height: 50px;
+  margin-bottom: 200px;
 }
 .button-main-text {
   font-family: var(--main-font);
@@ -168,6 +169,12 @@ header {
   color: #ffffff;
 }
 /* Критерии */
+.criterion {
+  margin-bottom: 94px;
+}
+.criterion-list {
+  display: flex;
+}
 .criterion-title {
   font-style: normal;
   font-weight: bold;
@@ -176,6 +183,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 .criterion-list-text {
   font-style: normal;
@@ -185,7 +193,23 @@ header {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+.criterion-list-item {
+  width: 270px;
+  height: 101px;
+}
+.criterion-list-item:not(:last-child) {
+  margin-right: 30px;
+}
 /* Чем мы занимаемся */
+.about-us-list {
+  display: flex;
+}
+.about-us-title-item:not(:last-child) {
+  margin-right: 30px;
+}
+.about-us {
+  margin-bottom: 108px;
+}
 .about-us-title {
   font-weight: bold;
   font-size: 36px;
@@ -193,6 +217,7 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
 /* Наша команда */
 .team-title {
