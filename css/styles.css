@@ -322,6 +322,7 @@ header {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  margin-bottom: 4px;
 }
 .work-list-text {
   font-style: normal;
@@ -362,12 +363,17 @@ header {
 .work-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
-  margin-bottom: -30px;
   margin-bottom: 94px;
 }
-.work-list > .work-list-item {
-  flex-basis: calc(100% / 3 -30px);
+.work-list-item {
   margin-right: 30px;
   margin-bottom: 30px;
+  width: 370px;
+  border: 1px solid #eeeeee;
+}
+.work-list-item:nth-child(3n) {
+  margin-right: 0;
+}
+.text-container {
+  margin: 20px 24px;
 }
