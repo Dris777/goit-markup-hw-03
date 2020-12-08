@@ -14,67 +14,69 @@
 <body>
     
         <!--Шапка Портфолио  -->
-    <header>
-        <div class="container">
+    <header class="header-portfolio">
+        <div class="container-header">
         <nav class="site-nav">
             <a class="logo-a" href="./index.html"><span class="logo">Web</span>Studio </a>
-            <ul class=" logo-a-list" >
-                <li> <a href="./index.html">Студия</a></li>
-                <li> <a  href="#"> <span class="portfolio">Портфолио</span> </a> </li>
-                <li> <a href="#">Контакты</a> </li>
+            <ul class="logo-a-list">
+                <li class="logo-a-list-item"> <a href="./index.html">Студия</a></li>
+                <li class="logo-a-list-item"> <a  href="#"> <span class="portfolio">Портфолио</span> </a> </li>
+                <li class="logo-a-list-item"> <a href="#">Контакты</a> </li>
             </ul>
         </nav>
-        <address>
+        <address class="header-contact">
             <a href="mailto:info@devstudio.com"><span class="adress-mail">info@devstudio.com</span></a>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="tel:+380961111111"><span class="header-contact-tel">+38 096 111 11 11</span></a>
         </address>
         </div>
     </header>
+
     <main>
+        <!-- Мейн Секция -->
         <section class="work">
             <div class="container">
             <h1 class="visually-hidden"> main </h1>
        <ul class="list-button" >
-       <li> <button class="button"> <span>Все</span> </button> </li>
-       <li> <button class="button"> <span>Веб-сайты</span> </button> </li>
-       <li> <button class="button"> <span>Приложения</span> </button> </li>
-       <li> <button class="button"> <span>Дизайн</span> </button> </li>
-       <li> <button class="button"> <span>Маркетинг</span> </button> </li>
+       <li class="list-button-item"> <button class="work-button"> <span class="work-button-text">Все</span> </button> </li>
+       <li class="list-button-item"> <button class="work-button"> <span class="work-button-text">Веб-сайты</span> </button> </li>
+       <li class="list-button-item"> <button class="work-button"> <span class="work-button-text">Приложения</span> </button> </li>
+       <li class="list-button-item"> <button class="work-button"> <span class="work-button-text">Дизайн</span> </button> </li>
+       <li class="list-button-item"> <button class="work-button"> <span class="work-button-text">Маркетинг</span> </button> </li>
     </ul>
     <ul class="work-list" >
-        <li> <img src="images/website.jpg" alt="фото сайта"> 
+        <li class="work-list-item"> <img src="images/website.jpg" alt="фото сайта"> 
             <h3 class="work-list-title">Технокряк</h3> <span class="work-list-text">Веб-сайт</span>
         </li>
 
-        <li> <img src="images/neworlean.jpg" alt="Постер"> 
+        <li class="work-list-item"> <img src="images/neworlean.jpg" alt="Постер"> 
             <h3 class="work-list-title"> Постер New Orlean vs Golden Star</h3> <span class="work-list-text">Дизайн</span> 
         </li>
 
-        <li> <img src="images/restorant.jpg" alt="Лого Ресторана"> 
+        <li class="work-list-item"> <img src="images/restorant.jpg" alt="Лого Ресторана"> 
             <h3 class="work-list-title">Ресторан Seafood</h3> <span class="work-list-text">Приложение</span>
         </li>
 
-        <li> <img src="images/projectprime.jpg" alt="Наушники"> 
+        <li class="work-list-item"> <img src="images/projectprime.jpg" alt="Наушники"> 
             <h3 class="work-list-title"> Проект Prime</h3> <span class="work-list-text">Маркетинг</span> 
         </li>
 
-        <li> <img src="images/projectboxes.jpg" alt="Коробки"> 
+        <li class="work-list-item"> <img src="images/projectboxes.jpg" alt="Коробки"> 
             <h3 class="work-list-title">Проект Boxes</h3> <span class="work-list-tex">Приложение</span> 
         </li>
 
-        <li> <img src="images/inspirationborders.jpg" alt="Программа"> 
+        <li class="work-list-item"> <img src="images/inspirationborders.jpg" alt="Программа"> 
             <h3 class="work-list-title">Inspiration has no Borders</h3> <span class="work-list-text">Веб-сайт</span>
         </li>
     
-        <li> <img src="images/limitededition.jpg" alt="Книга"> 
+        <li class="work-list-item"> <img src="images/limitededition.jpg" alt="Книга"> 
             <h3 class="work-list-title">Издание Limited Edition</h3> <span class="work-list-text">Дизайн</span> 
         </li>
 
-        <li> <img src="images/lab.jpg" alt="Бирка"> 
+        <li class="work-list-item"> <img src="images/lab.jpg" alt="Бирка"> 
             <h3 class="work-list-title">Проект LAB</h3> <span class="work-list-text">Маркетинг</span> 
         </li>
 
-        <li> <img src="images/growingbusiness.jpg" alt="Ноутбук"> 
+        <li class="work-list-item"> <img src="images/growingbusiness.jpg" alt="Ноутбук"> 
             <h3 class="work-list-title">Growing Business</h3> <span class="work-list-text">Приложение</span> 
         </li>
         </ul>
@@ -82,15 +84,15 @@
         </section>
    
     </main>
-
-        <footer>
+    <!-- Подвал -->
+        <footer class="footer">
             <div class="container">
-            <a class="logo-a" href="/index.html"><span class="logo">Web</span>Studio </a>
-            <address class="footer">
+            <a class="logo-a-footer" href="/index.html"><span class="logo">Web</span><span class="logo-a-footer-text">Studio</span></a>
+            <address class="footer-adress">
                 <ul class="footer-list">
-                <li><a class="footer-list-text" href="https://goo.gl/maps/csx7mLunFfqbMCbs7" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="footer-list-item"><a class="footer-list-text" href="https://goo.gl/maps/csx7mLunFfqbMCbs7" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li class="footer-list-item"><a class="footer-list-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="footer-list-item"><a class="footer-list-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </address>
             </div>
